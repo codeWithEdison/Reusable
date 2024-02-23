@@ -1,0 +1,83 @@
+.popup-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popup {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    width: 500px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .popup-header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .back-button {
+    color: #007bff;
+    border: none;
+    padding: 6px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: smaller;
+  }
+  
+  .popup h4 {
+    color: #000;
+    margin: 0;
+  }
+  
+  .popup-body {
+    margin-top: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: smaller;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    background-color: #ccc;
+    color: #000;
+    font-weight: bold;
+    outline: none;
+  }
+
+  .create-button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 4px;
+    margin-top: 10px;
+    font-size: small;
+  }
+
+  .create-button-stock-name{
+    font-weight: bold;
+  }
+  
+  .create-button:hover {
+    background: #0056b3;
+  }
+  
+  /* .popup hr {
+    border: 1px solid rgba(84, 127, 221, 0.2);
+  } */
